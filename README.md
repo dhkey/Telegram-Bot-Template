@@ -1,6 +1,6 @@
 How to use localization:
 
-1. Init a localization for a certain language. \n
+1. Init a localization for a certain language. <br>
 <i>pybabel init -i locales/messages.pot -d locales -D messages -l en</i>
 
 2. Creating template:\n
