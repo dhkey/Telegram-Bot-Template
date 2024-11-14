@@ -1,7 +1,7 @@
 How to use localization:
 
 1. Init a localization for a certain language. 
-<b>pybabel init -i locales/messages.pot -d locales -D messages -l en</b>
+<i>pybabel init -i locales/messages.pot -d locales -D messages -l en</i>
 
 2. Creating template:
 <i>pybabel extract -k _:1,1t -k _:1,2 -k __ --input-dirs=. -o locales/messages.pot</i>
